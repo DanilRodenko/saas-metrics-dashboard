@@ -1,5 +1,3 @@
-DROP VIEW total_mmr_by_month;
-
 CREATE VIEW total_mmr_by_month AS
 SELECT *,
     ROUND(
@@ -32,3 +30,4 @@ FROM (
 ORDER BY month_date;
 
 
+SELECT * FROM total_mmr_by_month;
